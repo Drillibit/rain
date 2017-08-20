@@ -5,7 +5,7 @@ body {
   height: 100vh; }
 
 body {
-  background: deepskyblue ;
+  background: url("../bg.jpg");
   background-size: cover; }
 
 .rain span {
@@ -14,8 +14,8 @@ body {
     content: "";
     position: absolute;
     display: block;
-    width: 15mm;
-    height: 31mm;
+    width: 1mm;
+    height: 3mm;
     top: 0;
     left: 0;
     filter: blur(5px);
@@ -41,45 +41,6 @@ body {
   -webkit-aniamtion-delay: 18s; }
 
 @-webkit-keyframes rainAnim {
-  from {
-    opacity: 1; }
-  to {
-    opacity: 0;
-    top: 5em; } }
-
-.rain2 span {
-  position: relative; }
-  .rain2 span::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 15mm;
-    height: 31mm;
-    top: 0;
-    left: 0;
-    filter: blur(5px);
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 100%;
-    opacity: 0;
-    -webkit-animation: rain2Anim 5s ease-in-out infinite; }
-.rain2 .rain2::before {
-  -webkit-aniamtion-delay: 5s; }
-.rain2 .rain2::before {
-  -webkit-aniamtion-delay: 7s; }
-.rain2 .rain2::before {
-  -webkit-aniamtion-delay: 9s; }
-.rain2 .rain2::before {
-  -webkit-aniamtion-delay: 11s; }
-.rain2 .rain2::before {
-  -webkit-aniamtion-delay: 13s; }
-.rain2 .rain2::before {
-  -webkit-aniamtion-delay: 15s; }
-.rain2 .rain2::before {
-  -webkit-aniamtion-delay: 17s; }
-.rain2 .rain2::before {
-  -webkit-aniamtion-delay: 19s; }
-
-@-webkit-keyframes rain2Anim {
   from {
     opacity: 1; }
   to {
